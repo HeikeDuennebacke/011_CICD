@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICD.WebApi", "CICD\CICD.WebApi.csproj", "{BA4E8136-709D-460B-A4C1-89981F45AFC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICD.Tests", "CICD.Tests\CICD.Tests.csproj", "{B189B418-91D5-424C-8375-38F1F34151AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA4E8136-709D-460B-A4C1-89981F45AFC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA4E8136-709D-460B-A4C1-89981F45AFC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA4E8136-709D-460B-A4C1-89981F45AFC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA4E8136-709D-460B-A4C1-89981F45AFC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B189B418-91D5-424C-8375-38F1F34151AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B189B418-91D5-424C-8375-38F1F34151AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B189B418-91D5-424C-8375-38F1F34151AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B189B418-91D5-424C-8375-38F1F34151AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A72960-D63A-4D18-9B69-9228B692EF83}
+	EndGlobalSection
+EndGlobal
